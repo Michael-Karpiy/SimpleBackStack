@@ -14,7 +14,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updateLayoutParams
 import androidx.core.view.updatePadding
 import com.backstackfragment.BackStack.BackStackActivity
-import com.backstackfragment.ui.Fragment1
 import com.simplebackstack.R
 import com.simplebackstack.databinding.ActivityMainBinding
 
@@ -61,7 +60,6 @@ class ActivityMain : BackStackActivity(R.id.container) {
         lateinit var context: Context
         lateinit var tvTitle: TextView
         lateinit var cvBack: CardView
-
     }
 
     override fun onStart() {

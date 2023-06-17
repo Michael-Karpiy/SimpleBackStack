@@ -1,4 +1,4 @@
-package com.backstackfragment.ui
+package com.backstackfragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
