@@ -1,7 +1,5 @@
-# SimpleBackStack-Lib
-[![](https://jitpack.io/v/Michael-Karpiy/SimpleBackStack-Lib.svg)](https://jitpack.io/#Michael-Karpiy/SimpleBackStack-Lib)
-
-# Settings gradle
+## How to add in your project
+### Settings gradle
 ```groovy
 	allprojects {
 		repositories {
@@ -10,8 +8,8 @@
 		}
 	}
 ```
-
-# Dependencies
+### Dependencies
 ```groovy
 implementation 'com.github.Michael-Karpiy:SimpleBackStack-Lib:Tag'
 ```
+[![](https://jitpack.io/v/Michael-Karpiy/SimpleBackStack-Lib.svg)](https://jitpack.io/#Michael-Karpiy/SimpleBackStack-Lib)
