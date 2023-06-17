@@ -5,7 +5,6 @@ import android.os.Parcelable
 import android.os.Parcelable.Creator
 import java.util.*
 
-
 class BackStack : Parcelable {
     val hostId: Int
     private val entriesStack = Stack<BackStackEntry>()
