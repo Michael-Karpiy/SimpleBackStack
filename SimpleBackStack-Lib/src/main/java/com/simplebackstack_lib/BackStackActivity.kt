@@ -5,8 +5,6 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.util.Pair
 import androidx.fragment.app.Fragment
-import com.tarkovinfo.Tools.BackStackKT.BackStackEntry
-import com.tarkovinfo.Tools.BackStackKT.BackStackManager
 
 
 abstract class BackStackActivity(private val containerViewId: Int) : AppCompatActivity() {

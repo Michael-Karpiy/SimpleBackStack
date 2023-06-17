@@ -1,4 +1,4 @@
-package com.tarkovinfo.Tools.BackStackKT
+package com.backstackfragment.BackStack
 
 import android.os.Bundle
 import android.os.Parcel
@@ -6,7 +6,6 @@ import android.os.Parcelable
 import android.os.Parcelable.Creator
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import com.backstackfragment.BackStack.BackStackActivity
 
 class BackStackEntry : Parcelable {
     private val fname: String?
